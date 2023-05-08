@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mariadb-initdb-config
+  namespace: web
+data:
+  init.sql: |
+    CREATE DATABASE IF NOT EXISTS wordpress;
+    GRANT ALL PRIVILEGES ON *.* TO wordpress IDENTIFIED BY 'password';
