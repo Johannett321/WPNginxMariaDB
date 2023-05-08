@@ -1,8 +1,8 @@
 # Deploy guide
 
-### Sett opp terraform worker
+### Setup the Terraform workers
 
-Start med å kjøre følgende kommandoer fra master
+The first step is to run the following commands from the master to create the Safespring worker instances.
 
 ```bash
 cd /home/ubuntu/Terraform
@@ -10,11 +10,11 @@ terraform plan
 terraform apply
 ```
 
-Og svar “yes” når du blir spurt om det.
+Answer “yes” when you're requested to.
 
-### Sett opp wordpress, nginx og mariaDB
+### Setup Wordpress, Nginx and MariaDB
 
-Deretter kjører du disse kommandoene
+Then you can run the following commands to add Wordpress, Nginx and MariaDB to the kubernetes cluster
 
 ```bash
 cd /home/ubuntu/web
