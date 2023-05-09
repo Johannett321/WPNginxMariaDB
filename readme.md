@@ -28,7 +28,7 @@ cd /home/ubuntu/web
 ./starter.sh
 ```
 
-### Test the deployment
+## Test the deployment
 
 To test that the deployment was successful, you can list all pods and make sure they are ready.
 
