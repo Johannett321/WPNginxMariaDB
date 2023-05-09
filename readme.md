@@ -1,5 +1,12 @@
 # Deploy guide
 
+## Pre-deployment
+
+The Safespring instances must first be started to be able deploy the environment. Start the "Master V3" instance, the "Worker 1" instance and the "Elastic Stack" instance.
+Wait a few minutes, and then you can proceed with the deployment.
+
+## Deployment
+
 ### Setup the Terraform workers
 
 The first step is to run the following commands from the master to create the Safespring worker instances.
