@@ -17,7 +17,7 @@ terraform plan
 terraform apply
 ```
 
-Answer “yes” when you're requested to.
+Answer “yes” when you're requested to. This process may take up to 10 minutes
 
 ### Setup Wordpress, Nginx and MariaDB
 
