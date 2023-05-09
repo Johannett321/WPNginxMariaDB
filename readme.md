@@ -36,10 +36,10 @@ To test that the deployment was successful, you can start by listing all pods an
 kubectl get pods -n web
 ```
 
-Then you can check which Safespring instance the pods run on by describing the pods using the following command.
+Then you can check which Safespring instance the pods run on by describing the pods using the following command with the POD NAME found in the following command.
 
 ```bash
-kubectl describe pod <INSERT_POD_ID_HERE> -n web
+kubectl describe pod <INSERT_POD_NAME_HERE> -n web
 ```
 
 You should then see "Node:" somewhere, where the name of the node is stated. If it is "w1", it is "Worker 1". If it is "worker-test", it is "worker-test". 
