@@ -2,7 +2,7 @@
 
 ## Pre-deployment
 
-The Safespring instances must first be started to be able deploy the environment. Start the "Master V3" instance, the "Worker 1" instance and the "Elastic Stack" instance.
+The Safespring instances must first be started to be able to deploy the environment. Start the "Master V3" instance, the "Worker 1" instance and the "Elastic Stack" instance.
 Wait a few minutes, and then you can proceed with the deployment.
 
 ## Deployment
